@@ -8,7 +8,7 @@ import time
 
 def kline(symbol):
 	time_stamp = int(round(time.time() * 1000))
-	params = '&begin'+str(time_stamp)+'&period=day&count=-142&indicator=kline'
+	params = '&begin='+str(time_stamp)+'&period=day&count=-142&indicator=kline'
     url = api_ref.kline_url+symbol+params
     return utls.fetch(url)
 
