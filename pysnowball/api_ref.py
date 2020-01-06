@@ -2,6 +2,7 @@
 # finance
 finance_cash_flow_url = "https://stock.xueqiu.com/v5/stock/finance/cn/cash_flow.json?symbol="
 finance_indicator_url = "https://stock.xueqiu.com/v5/stock/finance/cn/indicator.json?symbol="
+us_finance_indicator_url = "https://stock.xueqiu.com/v5/stock/finance/us/indicator.json?symbol="
 finance_balance_url = "https://stock.xueqiu.com/v5/stock/finance/cn/balance.json?symbol="
 finance_income_url = "https://stock.xueqiu.com/v5/stock/finance/cn/income.json?symbol="
 finance_business_url = "https://stock.xueqiu.com/v5/stock/finance/cn/business.json?symbol="

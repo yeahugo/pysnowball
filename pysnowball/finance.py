@@ -17,6 +17,17 @@ def cash_flow(symbol, is_annals=0, count=10):
 
     return utls.fetch(url)
 
+def us_indicator(symbol, is_annals=0, count=10):
+    
+    url = api_ref.us_finance_indicator_url+symbol
+    
+    if is_annals == 1:
+        url = url + '&type=Q4'
+    
+    url = url + '&count='+str(count)
+
+    return utls.fetch(url)
+
 
 def indicator(symbol, is_annals=0, count=10):
     
