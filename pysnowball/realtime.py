@@ -15,5 +15,5 @@ def pankou(symbol):
     return utls.fetch_without_token(url)
 
 def quotec_extend(symbols):
-    url = ap_ref.realtime_batch_ext+symbols
+    url = api_ref.realtime_batch_ext+symbols
     return urls.fetch(url)
