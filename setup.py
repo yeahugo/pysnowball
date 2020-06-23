@@ -75,7 +75,7 @@ def read_install_requires():
 
 setuptools.setup(
     name="pysnowball",
-    version="0.0.8",
+    version="0.0.9",
     author="Yeahugo",
     author_email="yjhuestc@aliyun.com",
     description="xueqiu api python client | 集成雪球API",
