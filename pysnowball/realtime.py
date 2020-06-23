@@ -16,4 +16,4 @@ def pankou(symbol):
 
 def quotec_extend(symbols):
     url = api_ref.realtime_batch_ext+symbols
-    return urls.fetch(url)
+    return utls.fetch(url)
